@@ -19,7 +19,7 @@ export function HeaderCopy({ sidebarOpen, setSidebarOpen,}) {
       <div className="px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 -mb-px ">
           {/* Header: Left side */}
-          <p>Allegrini Eduardo</p>
+          <p className='text-black dark:text-white'>Allegrini Eduardo</p>
           <div className="flex ">
             {/* Hamburger button */}
             <button
@@ -43,9 +43,7 @@ export function HeaderCopy({ sidebarOpen, setSidebarOpen,}) {
             </button>
           </div>
 
-          <span className="font-semibold text-slate-800 dark:text-slate-300 w-[75%]">
-              
-          </span>
+          
 
           {/* Header: Right side */}
           <div className="flex items-center">
@@ -60,12 +58,38 @@ export function HeaderCopy({ sidebarOpen, setSidebarOpen,}) {
               )}
             </button>
 
-            <div className="w-px h-6 bg-gray-600 mx-3 text-gray-600"></div>
+            <div className="w-px h-6 bg-gray-600 mx-3 text-black dark:text-white"></div>
               {/* Toggle Right side  */}
 
-
-
-
+              <div className="flex py-5 text-black dark:text-white">
+              <a
+                rel="noreferrer"
+                target="_blank"
+                href="https://www.instagram.com/edu.all/"
+                className="pr-4 inline-block text-accent hover:text-neutral-600"
+              >
+                {" "}
+                <AiOutlineInstagram size={40} />{" "}
+              </a>
+              <a
+                rel="noreferrer"
+                target="_blank"
+                href="https://api.whatsapp.com/send/?phone=%2B542236033394&text&type=phone_number&app_absent=0"
+                className="pr-4 inline-block text-accent hover:text-neutral-600"
+              >
+                {" "}
+                <AiOutlineWhatsApp size={40} />{" "}
+              </a>
+              <a
+                rel="noreferrer"
+                target="_blank"
+                href="https://www.facebook.com/eduu.allegrini/"
+                className="pr-4 inline-block text-accent hover:text-neutral-600"
+              >
+                {" "}
+                <AiOutlineFacebook size={40} />{" "}
+              </a>
+            </div>
           </div>
         </div>
       </div>

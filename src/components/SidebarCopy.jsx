@@ -46,7 +46,7 @@ export function SidebarCopy({ sidebarOpen, setSidebarOpen }) {
   
 
   return (
-    <div>
+    <div className=''>
       {/* Sidebar backdrop (mobile only) */}
       <div
         className={`fixed inset-0 bg-slate-900 bg-opacity-30 z-40 lg:hidden lg:z-auto transition-opacity duration-200 ${

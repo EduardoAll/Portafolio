@@ -29,7 +29,7 @@ const Hero = () => {
               rel="noreferrer"
               target="_blank"
               href="https://www.instagram.com/edu.all/"
-              className="pr-4 inline-block text-accent hover:text-white animate__animated animate__rollIn animate__delay-2s"
+              className="pr-4 inline-block text-accent hover:text-neutral-600 animate__animated animate__rollIn animate__delay-2s"
             >
               {" "}
               <AiOutlineInstagram size={40} />{" "}
@@ -38,7 +38,7 @@ const Hero = () => {
               rel="noreferrer"
               target="_blank"
               href="https://api.whatsapp.com/send/?phone=%2B542236033394&text&type=phone_number&app_absent=0"
-              className="pr-4 inline-block text-accent hover:text-white animate__animated animate__rollIn animate__delay-2s"
+              className="pr-4 inline-block text-accent hover:text-neutral-600 animate__animated animate__rollIn animate__delay-2s"
             >
               {" "}
               <AiOutlineWhatsApp size={40} />{" "}
@@ -47,7 +47,7 @@ const Hero = () => {
               rel="noreferrer"
               target="_blank"
               href="https://www.facebook.com/eduu.allegrini/"
-              className="pr-4 inline-block text-accent hover:text-white animate__animated animate__rollIn animate__delay-2s"
+              className="pr-4 inline-block text-accent hover:text-neutral-600 animate__animated animate__rollIn animate__delay-2s"
             >
               {" "}
               <AiOutlineFacebook size={40} />{" "}
