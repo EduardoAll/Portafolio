@@ -5,7 +5,7 @@ import ThemeContext from '../context/ThemeProvider';
 import {
   AiOutlineInstagram,
   AiOutlineWhatsApp,
-  AiOutlineFacebook,
+  AiOutlineLinkedin,
 } from "react-icons/ai";
 
 
@@ -83,11 +83,11 @@ export function HeaderCopy({ sidebarOpen, setSidebarOpen,}) {
               <a
                 rel="noreferrer"
                 target="_blank"
-                href="https://www.facebook.com/eduu.allegrini/"
+                href="https://www.linkedin.com/in/eduardoallegrini/"
                 className="pr-4 inline-block text-accent hover:text-neutral-600"
               >
                 {" "}
-                <AiOutlineFacebook size={40} />{" "}
+                <AiOutlineLinkedin size={40} />{" "}
               </a>
             </div>
           </div>
