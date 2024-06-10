@@ -97,4 +97,4 @@ export function HeaderCopy({ sidebarOpen, setSidebarOpen,}) {
   );
 }
 
-// 25-5-2024 actualizado
+// 09-6-2024 actualizado
