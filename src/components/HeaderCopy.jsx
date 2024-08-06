@@ -24,6 +24,7 @@ export function HeaderCopy({ sidebarOpen, setSidebarOpen,}) {
           <p className='text-black dark:text-white'>Allegrini Eduardo</p>
           <div className="flex ">
             {/* Hamburger button */}
+            {/* Hamburger button */}
             <button
               className="text-slate-500 hover:text-slate-600 lg:hidden"
               aria-controls="sidebar"
