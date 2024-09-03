@@ -8,7 +8,7 @@ import {
   AiOutlineLinkedin,
 } from "react-icons/ai";
 
-//asdasdaASDAS
+//asdasdaAS
 
 
 export function HeaderCopy({ sidebarOpen, setSidebarOpen,}) {
