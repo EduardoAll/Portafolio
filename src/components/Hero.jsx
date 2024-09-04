@@ -10,6 +10,8 @@ import {
   AiOutlineFacebook,
 } from "react-icons/ai";
 
+//asadas
+
 const Hero = () => {
   return (
     <section className="bg-primary px-5 text-black dark:text-white py-5">
