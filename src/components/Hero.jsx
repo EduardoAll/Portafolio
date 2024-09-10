@@ -10,7 +10,7 @@ import {
   AiOutlineFacebook,
 } from "react-icons/ai";
 
-//asadasasdasdasdasdasdasd
+//asadasasdasdasdasdaasda
 
 const Hero = () => {
   return (
